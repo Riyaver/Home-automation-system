@@ -1,14 +1,17 @@
 # Home-automation-system
 
 Abstract:
+
 The objective of this project is to develop a home automation system using nodeMCU and relay switches, which can control LEDs using voice.
 With progressive technological advancement, the work required to achieve a simple task has significantly decreased, one of these essential advancements is “Home Automation,” which is controlling devices using commands from a smart device.
 
 Introduction: 
+
 “Home automation” refers to the automatic and electronic control of household features, activities, and appliances. The utilities and features of our home can be easily controlled through the Internet. 
 Many modern houses are now gradually shifting from conventional switches to a centralized system, involving remote-controlled switches. Conventional wall switches located in different parts of the house make it difficult for the user to go near them to operate. Even more difficult for the elderly or physically handicapped people to do so. The remote-controlled home automation system provides a most modern solution with smartphones.
 
 Aim of the project
+
 To develop a home automation system that can turn on and off LED using voice control as well as with buttons and switches.
 
 Components required
@@ -44,6 +47,7 @@ Circuit diagram
 
 
 Description and connections in the project:
+
 To control the LEDs with voice, Google Home app is used in the smartphone which uses the platform “Sinric Pro” to connect with the NodeMCU board.
 •GPIO pin D2, D5m D6 of NodeMCU is connected to in2, in3, in4 of relay module, to control their respective module.
 •GPIO pins D3, D7, and RX are connected to the manual switches which are then further connected to the ground.
@@ -52,4 +56,3 @@ To control the LEDs with voice, Google Home app is used in the smartphone which 
 •The common of the relay is connected to the live wire, after this both live and neutral wire are connected to a plug which is used for AC supply 
 
 
-Circuit diagram 
